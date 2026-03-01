@@ -41,6 +41,23 @@ dependencies:
   flutter_screenutil: ^5.9.3
   swipeable_page_route: ^0.4.8
   image_cropper: ^11.0.0
+  syncfusion_flutter_core: ^32.2.7
+  syncfusion_flutter_charts: ^32.2.7
+  syncfusion_flutter_calendar: ^32.2.7
+  syncfusion_flutter_datagrid: ^32.2.7
+#  syncfusion_flutter_pdfviewer: ^32.2.7
+  syncfusion_flutter_pdf: ^32.2.7
+  syncfusion_flutter_xlsio: ^32.2.7
+  syncfusion_flutter_datepicker: ^32.2.7
+  syncfusion_flutter_maps: ^32.2.7
+  syncfusion_flutter_treemap: ^32.2.7
+  syncfusion_flutter_gauges: ^32.2.7
+  syncfusion_flutter_sliders: ^32.2.7
+  syncfusion_flutter_signaturepad: ^32.2.7
+  syncfusion_flutter_barcodes: ^32.2.7
+  syncfusion_officechart: ^32.2.7
+  syncfusion_officecore: ^32.2.7
+  syncfusion_localizations: ^32.2.7
 
 dev_dependencies:
   flutter_test:
