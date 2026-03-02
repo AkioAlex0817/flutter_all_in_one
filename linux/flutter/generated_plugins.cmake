@@ -3,6 +3,13 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  desktop_drop
+  file_selector_linux
+  flutter_inappwebview_linux
+  flutter_secure_storage_linux
+  gtk
+  no_screenshot
+  restart_app
   url_launcher_linux
 )
 
