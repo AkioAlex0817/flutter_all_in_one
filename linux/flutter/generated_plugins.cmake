@@ -3,6 +3,7 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  awesome_notifications
   desktop_drop
   file_selector_linux
   flutter_inappwebview_linux
@@ -10,6 +11,7 @@ list(APPEND FLUTTER_PLUGIN_LIST
   gtk
   no_screenshot
   restart_app
+  syncfusion_pdfviewer_linux
   url_launcher_linux
 )
 

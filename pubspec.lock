@@ -25,6 +25,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.0.0"
+  animated_list_plus:
+    dependency: "direct main"
+    description:
+      name: animated_list_plus
+      sha256: fb3d7f1fbaf5af84907f3c739236bacda8bf32cbe1f118dd51510752883ff50c
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.2"
   animated_text_kit:
     dependency: "direct main"
     description:
@@ -89,6 +97,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+  app_settings:
+    dependency: "direct main"
+    description:
+      name: app_settings
+      sha256: "64d50e666fd96ae90301bf71205f05019286f940ad6f5fed3d1be19c6af7546a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
   archive:
     dependency: "direct main"
     description:
@@ -113,6 +129,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.13.0"
+  audio_session:
+    dependency: transitive
+    description:
+      name: audio_session
+      sha256: "8f96a7fecbb718cb093070f868b4cdcb8a9b1053dce342ff8ab2fde10eb9afb7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.2"
+  awesome_notifications:
+    dependency: "direct main"
+    description:
+      name: awesome_notifications
+      sha256: fb4d5d6effd904720cbc85cfbe796da35f6b0ff079c0798c1a387616200bd80c
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.11.0"
   background_fetch:
     dependency: "direct main"
     description:
@@ -129,6 +161,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.2"
+  battery_plus:
+    dependency: "direct main"
+    description:
+      name: battery_plus
+      sha256: ad16fcb55b7384be6b4bbc763d5e2031ac7ea62b2d9b6b661490c7b9741155bf
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
+  battery_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: battery_plus_platform_interface
+      sha256: e8342c0f32de4b1dfd0223114b6785e48e579bfc398da9471c9179b907fa4910
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   black_hole_flutter:
     dependency: transitive
     description:
@@ -153,6 +201,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.2"
+  bottom_picker:
+    dependency: "direct main"
+    description:
+      name: bottom_picker
+      sha256: "721b95e389b1c91e387832833fdcd0fa8658a1e3f9b9d75a966af9354bb24ada"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.1"
   build:
     dependency: transitive
     description:
@@ -393,6 +449,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.3"
+  dio:
+    dependency: "direct main"
+    description:
+      name: dio
+      sha256: aff32c08f92787a557dd5c0145ac91536481831a01b4648136373cddb0e64f8c
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.9.2"
+  dio_web_adapter:
+    dependency: transitive
+    description:
+      name: dio_web_adapter
+      sha256: "2f9e64323a7c3c7ef69567d5c800424a11f8337b8b228bad02524c9fb3c1f340"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.2"
   dotted_border:
     dependency: "direct main"
     description:
@@ -418,7 +490,7 @@ packages:
     source: hosted
     version: "3.0.0"
   fake_async:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: fake_async
       sha256: "5368f224a74523e8d2e7399ea1638b37aecfca824a3cc4dfdf77bf1fa905ac44"
@@ -505,6 +577,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.1"
+  floating:
+    dependency: "direct main"
+    description:
+      name: floating
+      sha256: e51ce1dbcab3ea83da0ad1b07f2091b99c0e8680184c780a000567f41234d454
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -550,6 +630,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.0"
+  flutter_file_downloader:
+    dependency: "direct main"
+    description:
+      name: flutter_file_downloader
+      sha256: b0ec675d000d88125a4f0daf3d7013a6d1c2fbdc29aa4fe3498f463c43a5c8fe
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.1"
   flutter_inappwebview:
     dependency: "direct main"
     description:
@@ -638,38 +726,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.0"
-  flutter_local_notifications:
-    dependency: "direct main"
-    description:
-      name: flutter_local_notifications
-      sha256: cf206c68707773b670340dfeca7fc95f95509f4ca91a544bdd77d03a8106b91e
-      url: "https://pub.dev"
-    source: hosted
-    version: "21.0.0-dev.2"
-  flutter_local_notifications_linux:
-    dependency: transitive
-    description:
-      name: flutter_local_notifications_linux
-      sha256: "223bdd6e389a5ec02597fb494c8b3d6b0a9119534f9f45b7feef69cc0ee838e5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "8.0.0-dev.1"
-  flutter_local_notifications_platform_interface:
-    dependency: transitive
-    description:
-      name: flutter_local_notifications_platform_interface
-      sha256: "2adc3c14a650af4e6235817fbf4335ba14bc3d36d5d497d7104d94e1475d5ddc"
-      url: "https://pub.dev"
-    source: hosted
-    version: "11.0.0-dev.1"
-  flutter_local_notifications_windows:
-    dependency: transitive
-    description:
-      name: flutter_local_notifications_windows
-      sha256: e7136082af98f3459552d2cc423f4b27e3010bbddcd1e575d9a270d47d2384d4
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.0-dev.1"
   flutter_localizations:
     dependency: transitive
     description: flutter
@@ -747,6 +803,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.0"
+  flutter_slidable:
+    dependency: "direct main"
+    description:
+      name: flutter_slidable
+      sha256: ea369262929d3cc6ebf9d8a00c196127966f117fe433a5e5cb47fb08008ca203
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.3"
   flutter_sliding_toast:
     dependency: "direct main"
     description:
@@ -845,6 +909,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.2"
+  group_list_view:
+    dependency: "direct main"
+    description:
+      name: group_list_view
+      sha256: "58bfc7f4b818abff531c2b202fb18b08abfb503f1621b0e86137a4fa4b6d91dd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
   gtk:
     dependency: transitive
     description:
@@ -949,6 +1021,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "8.0.0"
+  image_gallery_saver_plus:
+    dependency: "direct main"
+    description:
+      name: image_gallery_saver_plus
+      sha256: "199b9e24f8d85e98f11e3d35571ab68ae50626ad40e2bb85c84383f69a6950ad"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.1"
   image_picker:
     dependency: "direct main"
     description:
@@ -1061,6 +1141,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.13.0"
+  just_audio:
+    dependency: "direct main"
+    description:
+      name: just_audio
+      sha256: "9694e4734f515f2a052493d1d7e0d6de219ee0427c7c29492e246ff32a219908"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.5"
+  just_audio_platform_interface:
+    dependency: transitive
+    description:
+      name: just_audio_platform_interface
+      sha256: "2532c8d6702528824445921c5ff10548b518b13f808c2e34c2fd54793b999a6a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.6.0"
+  just_audio_web:
+    dependency: transitive
+    description:
+      name: just_audio_web
+      sha256: "6ba8a2a7e87d57d32f0f7b42856ade3d6a9fbe0f1a11fabae0a4f00bb73f0663"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.16"
   leak_tracker:
     dependency: "direct main"
     description:
@@ -1149,6 +1253,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.0"
+  marqueer:
+    dependency: "direct main"
+    description:
+      name: marqueer
+      sha256: f198e80abfc37581eba3927b2536a62e99357918f2a59cf58558b451fdef7cc7
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.3"
   mask_text_input_formatter:
     dependency: "direct main"
     description:
@@ -1205,6 +1317,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
+  network_info_plus:
+    dependency: "direct main"
+    description:
+      name: network_info_plus
+      sha256: "2866dadcbee2709e20d67737a1556f5675b8b0cdcf2c1659ba74bc21bffede4f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
+  network_info_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: network_info_plus_platform_interface
+      sha256: "7e7496a8a9d8136859b8881affc613c4a21304afeb6c324bcefc4bd0aff6b94b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.2"
   nm:
     dependency: transitive
     description:
@@ -1494,7 +1622,7 @@ packages:
     source: hosted
     version: "4.1.0"
   quiver:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: quiver
       sha256: ea0b925899e64ecdfbf9c7becb60d5b50e706ade44a85b2363be2a22d88117d2
@@ -1533,6 +1661,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.28.0"
+  saver_gallery:
+    dependency: "direct main"
+    description:
+      name: saver_gallery
+      sha256: "1d942bd7f4fedc162d9a751e156ebac592e4b81fc2e757af82de9077f3437003"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.0"
   sensors_plus:
     dependency: "direct main"
     description:
@@ -1762,6 +1898,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "32.2.7"
+  syncfusion_flutter_pdfviewer:
+    dependency: "direct main"
+    description:
+      name: syncfusion_flutter_pdfviewer
+      sha256: ce75f73176e0482960d465b68ef978e7a6d385ac9e1147b26cb52e8c653eb7c5
+      url: "https://pub.dev"
+    source: hosted
+    version: "32.2.7"
   syncfusion_flutter_signaturepad:
     dependency: "direct main"
     description:
@@ -1815,6 +1959,46 @@ packages:
     description:
       name: syncfusion_officecore
       sha256: c5024a69d8c6662d1c68c6ffc7fc4aef95b0256a17f2c40bfb55412f54bf7589
+      url: "https://pub.dev"
+    source: hosted
+    version: "32.2.7"
+  syncfusion_pdfviewer_linux:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_linux
+      sha256: c0184a2329c57e1f0d504da8a5d86b4348e9a05884f3d953e65484cd496a6888
+      url: "https://pub.dev"
+    source: hosted
+    version: "32.2.7"
+  syncfusion_pdfviewer_macos:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_macos
+      sha256: adbe502cdc1e1ac4abd471429064b6cedc589a4c8e733fd66579f81364297717
+      url: "https://pub.dev"
+    source: hosted
+    version: "32.2.7"
+  syncfusion_pdfviewer_platform_interface:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_platform_interface
+      sha256: e4dbf6e6ade1da27136b74fef022800b6e65702a6e59337be5e7724d4e74fed1
+      url: "https://pub.dev"
+    source: hosted
+    version: "32.2.7"
+  syncfusion_pdfviewer_web:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_web
+      sha256: "49940abb12b17d1d9ee4d06f0f8fdf72918f2318e47e999e3f4d44096b1b8c5e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "32.2.7"
+  syncfusion_pdfviewer_windows:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_windows
+      sha256: "0f535f1f986fb625dc09c2326e63e57988fe71c5d100503af7c54ddde6237848"
       url: "https://pub.dev"
     source: hosted
     version: "32.2.7"
@@ -1898,6 +2082,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
+  upower:
+    dependency: transitive
+    description:
+      name: upower
+      sha256: cf042403154751180affa1d15614db7fa50234bc2373cd21c3db666c38543ebf
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.0"
   url_launcher:
     dependency: "direct main"
     description:
@@ -2099,7 +2291,7 @@ packages:
     source: hosted
     version: "1.1.1"
   web_socket:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: web_socket
       sha256: "34d64019aa8e36bf9842ac014bb5d2f5586ca73df5e4d9bf5c936975cae6982c"
@@ -2107,7 +2299,7 @@ packages:
     source: hosted
     version: "1.0.1"
   web_socket_channel:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: web_socket_channel
       sha256: d645757fb0f4773d602444000a8131ff5d48c9e47adfe9772652dd1a4f2d45c8
@@ -2154,6 +2346,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.23.8"
+  wheel_picker:
+    dependency: "direct main"
+    description:
+      name: wheel_picker
+      sha256: bb1d913e5a7ab45158fd2154ca7309bc6e5666233dd5bdbdc583ee208b4257fa
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.2"
   win32:
     dependency: transitive
     description:
